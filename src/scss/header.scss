@@ -1,0 +1,103 @@
+header {
+    height: 157px;
+    padding-top: 53px;
+    padding-bottom: 61px;
+}
+
+.logo {
+    color: #e24545;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 0%;
+}
+
+.logo:after {
+    content: '';
+    width: 9px;
+    height: 2px;
+    background-color: #e24545;
+    margin: 0;
+    display: block;
+}
+
+b {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+nav {
+    /* width: 573px; */
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list {
+    width: 573px;
+    margin-top: 12px;
+
+}
+
+.store {
+    letter-spacing: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #444444;
+    line-height: 0%;
+}
+
+.nav-list_link {
+    color: #444444;
+}
+
+.nav-list_link:hover {
+    color: #e24545;
+}
+
+.nav-list_link:hover:after {
+    content: '';
+    width: 9px;
+    height: 2px;
+    background-color: #e24545;
+    margin: 0;
+    display: block;
+}
+
+.goods-bucket {
+    position: relative;
+    width: 140px;
+    height: 44px;
+    border: 2px solid #444444;
+    padding: 3px 16px 3px 16px;
+    display: inline-block;
+}
+
+.bagQtt {
+    width: 22px;
+    height: 22px;
+    font-weight: bold;
+    padding-left: 7px;
+    padding-top: 1px;
+    font-size: 13px;
+    border-radius: 50%;
+    color: white;
+    background-color: #444444;
+    display: inline-block;
+    position: absolute;
+    right: -12px;
+    top: 8px;
+}
+
+
+
